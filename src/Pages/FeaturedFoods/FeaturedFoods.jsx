@@ -28,7 +28,7 @@ const FeaturedFoods = () => {
             <h1 className="lg:w-[30%] text-4xl mx-auto font-Prata font-bold ">Order food online in</h1>
             <div className="lg:grid grid-cols-3 container mx-auto  justify-around  ">
                 {
-                    data?.slice(0, 6).map(Featuredfood => <FeaturedFood key={Featuredfood._id} FeaturedFood={Featuredfood}></FeaturedFood>)
+                    data?.slice(0, 9).map(Featuredfood => <FeaturedFood key={Featuredfood._id} FeaturedFood={Featuredfood}></FeaturedFood>)
                 }
             </div>
             <div className="float-end w-60 mt-3 container mx-auto">

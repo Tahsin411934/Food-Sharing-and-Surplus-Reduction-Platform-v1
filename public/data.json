@@ -1,0 +1,43 @@
+[
+    {
+      "image": "https://i.ibb.co/1bfgHFW/pexels-wendywei-1190298.jpg",
+      "spot_name": "Kolkata",
+      "price": 9.99
+    },
+    {
+      "image": "https://i.ibb.co/bWpLF8W/pexels-hay-photograp-95469-309293.jpg",
+      "spot_name": "Delli",
+      "price": 12.99
+    },
+    {
+      "image": "https://i.ibb.co/bm8PbdB/pexels-nicole-avagliano-1132392-2368951.jpg",
+      "spot_name": "Gujrat",
+      "price": 19.99
+    },
+    {
+      "image": "https://i.ibb.co/dpmr5CX/pexels-mark-angelo-sampan-738078-1587927.jpg",
+      "spot_name": "Ahmadabad",
+      "price": 8.50
+    },
+    {
+      "image": "https://i.ibb.co/DkJh2yn/pexels-timesaverhacks-1080953.jpg",
+      "spot_name": " Chennai",
+      "price": 14.50
+    },
+    {
+      "image": "https://i.ibb.co/0VP102z/pexels-wendywei-1179581.jpg",
+      "spot_name": "Pune",
+      "price": 25.00
+    },
+    {
+      "image": "https://i.ibb.co/Qr7dJhX/pexels-aarv-724259.jpg",
+      "spot_name": "Hyderabad",
+      "price": 14.50
+    },
+    {
+      "image": "https://i.ibb.co/Pws0BwP/pexels-energepic-com-27411-110472.jpg",
+      "spot_name": "Bangalore",
+      "price": 25.00
+    }
+  ]
+  

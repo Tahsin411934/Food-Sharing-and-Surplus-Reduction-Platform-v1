@@ -10,7 +10,7 @@ const FeaturedFood = ({FeaturedFood}) => {
       <div className="">
         <div className='border-slate-100 bg-[#ffffff] border rounded-xl bg-[#F7F8F8]card card-compact w-[95%] shadow-sm mx-auto hover:bg-[#f3f5f3] mb-3 lg:m-0'>
           <figure>
-            <img className="w-full h-64 rounded-t-2xl" src={FeaturedFood.food_image} alt="Food image" />
+            <img className="w-full h-64 rounded-t-2xl " src={FeaturedFood.food_image} alt="Food image" />
           </figure>
           <div className="card-body mulish-font">
             <div className="grid grid-cols-12 items-center text-sm">

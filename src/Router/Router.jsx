@@ -13,6 +13,7 @@ import MyFoodRequest from "../Pages/MyFoodRequest/MyFoodRequest";
 import UpdateFood from "../Pages/UpdateFood/UpdateFood";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import Nightout from "../Pages/Nightout/Nightout";
 
 
 
@@ -63,10 +64,10 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
           element:<PrivateRoute><UpdateFood></UpdateFood></PrivateRoute>  ,
           loader: ({params})=> fetch(`https://food-sharing-website-server-beta.vercel.app/Foods/${params.id}`)
         },
-        {
-          path:"/req",
-          element: <Req
-        }
+       {
+        path:'/nightout',
+        element:<Nightout/>
+       }
       ]
     },
   ]);
