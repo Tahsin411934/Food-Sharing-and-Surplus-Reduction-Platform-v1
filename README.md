@@ -131,5 +131,16 @@ Implement TanStack Query for fetching API data and utilize the mutation feature 
 
 ### Security with JWT
 Implement JWT for user authentication and authorization on private routes.
+### Installation
 
+1. **Clone the repository:**
+  
+       git clone "https://github.com/Tahsin411934/FITFOCUS-client.git"
+
+2. **Install Dependencies:**
+  
+       npm i
+2. **Run Project:**
+  
+       npm run dev
 
