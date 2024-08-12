@@ -42,7 +42,7 @@ const Home = () => {
               className="bg-cover bg-center hero  w-full h-[400px] bg-gradient-to-r from-slate-900 to-black "
               style={{
                 backgroundImage:
-                  "url(https://i.ibb.co/7nbSZ2w/banner-Image.png)",
+                  "url(banner-Image.png)",
               }}
             >
               <div className=" "></div>

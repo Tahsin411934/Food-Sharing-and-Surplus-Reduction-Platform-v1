@@ -1,11 +1,29 @@
+import axios from "axios";
 import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import UseAuth from "../../Hook/useAuth";
+import useCarts from "../../Hook/useCarts";
 
 
 const FeaturedFood = ({FeaturedFood}) => {
+const {user} = UseAuth();
+const { refetch}= useCarts()
+ const handleCart = ()=>{
+  refetch()
+  console.log(FeaturedFood)
+  axios.post('https://food-sharing-website-server-beta.vercel.app/carts', {
+    food_name: FeaturedFood.food_name,
+    price: FeaturedFood.price,
+    user : user.email
+  } )
+  refetch()
+ }
     
     return (
         <div>
+
+
+          
              <div className="mt-10 font-Montserrat relative">
       <div className="">
         <div className='border-slate-100 bg-[#ffffff] border rounded-xl bg-[#F7F8F8]card card-compact w-[95%] shadow-sm mx-auto hover:bg-[#f3f5f3] mb-3 lg:m-0'>
@@ -22,7 +40,15 @@ const FeaturedFood = ({FeaturedFood}) => {
               <p className="col-span-6"> Available Quantity: {FeaturedFood.food_quantity}</p>
             </div>
             <hr className=' mt-1 h-[1px] border-none bg-slate-200 mx-auto w-[90%] ' />
+            <div className="flex justify-between">
+             
             <h2 className="card-title">{FeaturedFood.food_name}</h2>
+            <button onClick={handleCart} className="text-red-500 btn bg-slate-200">
+            Add to Cart
+            </button>
+           
+            </div>
+            
             <h2 className=" absolute top-0 left-0 bg-[#E70229] text-white p-2 rounded-2xl">{FeaturedFood.Food_Status}</h2>
             <p className="text-[#B09696] mb-2">{FeaturedFood.additional_notes}</p>
             

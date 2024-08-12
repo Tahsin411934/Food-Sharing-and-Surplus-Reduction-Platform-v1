@@ -17,7 +17,7 @@ const Nightout = () => {
                 <div className="text-3xl font-bold font-Prata">NightOut Collection</div>
                 <div>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</div>
             </div>
-            <div className="grid grid-cols-4 gap-3">
+            <div className="grid lg:grid-cols-4 mx-auto w-[80%] lg:w-[100%] md:grid-cols-2 gap-3">
             {items.map(item => (
                 <div key={item.id} className="max-w-xs pt-4 shadow-md dark:bg-gray-50 dark:text-gray-800 relative">
                     <div className="space-y-4">
